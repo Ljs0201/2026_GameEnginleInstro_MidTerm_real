@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1599033759797744523}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -1.33, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69,7 +69,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -162,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 3897885574076397879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.12, z: 0}
+  m_LocalPosition: {x: -0.102, y: -1.451, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,14 +178,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6401070363776765137}
   - component: {fileID: 7243065158017322445}
-  - component: {fileID: 3844270087672402552}
   - component: {fileID: 2616828916338783914}
   - component: {fileID: 1571105090852954962}
   - component: {fileID: 3398874534157908872}
-  - component: {fileID: 347164739502522374}
+  - component: {fileID: 1556781970601303994}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +198,7 @@ Transform:
   m_GameObject: {fileID: 7803322555567967522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: -0.41, z: 0}
+  m_LocalPosition: {x: -28.9, y: 3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -254,9 +253,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7309135138156230934, guid: ceff633f93bd0b447a6024eacab7b020, type: 3}
+  m_Sprite: {fileID: 21300014, guid: e48ddf4fb7304ce4ab48711eb6617a57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -266,24 +265,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3844270087672402552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7803322555567967522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e3a7f0e45b73294b80c57485fa44d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  moveSpeed: 3
-  jumpForce: 3
-  groundCheck: {fileID: 1597688236137530575}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!114 &2616828916338783914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,37 +356,33 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.07099056, y: -0.9760766}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.22, y: 0.24}
+    pivot: {x: 0.5, y: 1}
+    oldSize: {x: 1.43, y: 1.51}
     newSize: {x: 0.22, y: 0.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.15, y: 0.24}
+  m_Size: {x: 0.62093544, y: 0.88335323}
   m_EdgeRadius: 0
---- !u!95 &347164739502522374
-Animator:
-  serializedVersion: 7
+--- !u!114 &1556781970601303994
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7803322555567967522}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c9a7709c7993a141aaa4f2d652b7366, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3a7f0e45b73294b80c57485fa44d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 5
+  jumpForce: 5
+  groundCheck: {fileID: 1597688236137530575}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
