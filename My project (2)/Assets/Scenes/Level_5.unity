@@ -34387,11 +34387,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6401070363776765137, guid: 3f2017e00ffceae47b028e269497f1ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.68
+      value: -47.61
       objectReference: {fileID: 0}
     - target: {fileID: 6401070363776765137, guid: 3f2017e00ffceae47b028e269497f1ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6401070363776765137, guid: 3f2017e00ffceae47b028e269497f1ac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34451,12 +34451,20 @@ PrefabInstance:
       value: Goal
       objectReference: {fileID: 0}
     - target: {fileID: 6660302167774852543, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6660302167774852543, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6660302167774852543, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.5
+      value: 41.56
       objectReference: {fileID: 0}
     - target: {fileID: 6660302167774852543, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 1.44
       objectReference: {fileID: 0}
     - target: {fileID: 6660302167774852543, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34490,11 +34498,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7798279059648518645, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: ae3918a914038694d852d0bb81f62473, type: 3}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0656815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1753376
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.00000011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 8383632323563221015, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1666666
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3688207270684836524, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1249492495}
   m_SourcePrefab: {fileID: 100100000, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+--- !u!1 &1249492494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3688207270684836524, guid: 3a3735b7747db7f44b462a1067fbb943, type: 3}
+  m_PrefabInstance: {fileID: 1249492493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249492495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249492494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c795cc953ef5744853f007d4d1f935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelObject
+  nextLevel: Level_0
 --- !u!1 &1519526452
 GameObject:
   m_ObjectHideFlags: 0

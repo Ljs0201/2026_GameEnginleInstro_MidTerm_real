@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6660302167774852543}
   - component: {fileID: 7798279059648518645}
   - component: {fileID: 8383632323563221015}
-  - component: {fileID: 2990757564689158876}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Finish
@@ -139,16 +138,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.18}
   m_EdgeRadius: 0
---- !u!114 &2990757564689158876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3688207270684836524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c795cc953ef5744853f007d4d1f935, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelObject
-  nextLevel: Level_3
